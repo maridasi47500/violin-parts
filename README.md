@@ -1,3 +1,7 @@
+- violin studies
+- play studies for the violin
+-  
+
 Structural Components
 Chamfer – 1
 
