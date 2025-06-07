@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Liste des posts{% endblock %}
+{% block content %}
+<h1>Liste des posts</h1>
+<ul>
+    {% for post in posts %}
+    <li>
+        <strong>{{ post.created_at.strftime("%Y-%m-%d %H:%M") }}</strong><br>
+        {{ post.content }}<br>
+        <em>Difficulté:</em> {{ post.difficulte }}<br>
+        <em>Résonance:</em> {{ post.resonnance }}
+    </li>
+    {% else %}
+    <li>Aucun post trouvé.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -6,6 +6,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///violin.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 
+
 @app.route("/post", methods=["GET", "POST"])
 def post():
     if request.method == "POST":
@@ -21,7 +22,12 @@ def post():
 
 @app.route("/post/success")
 def post_success():
-    return "<h2>Merci pour votre réponse !</h2>"
+    return render_template('merci.html')
+
+@app.route("/posts")
+def posts():
+    all_posts = Post.query.order_by(Post.created_at.desc()).all()
+    return render_template("posts.html", posts=all_posts)
 
 
 

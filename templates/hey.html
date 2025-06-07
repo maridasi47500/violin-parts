@@ -4,6 +4,7 @@
         <a class="navbar-brand" href="#">Violin Anatomy</a>
     <li><a href="/">Accueil</a></li>
     <li><a href="{{ url_for('post') }}">Donner mon avis sur le violon</a></li>
+<li><a href="{{ url_for('posts') }}">Voir les avis</a></li>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -142,6 +143,7 @@
     </div>
 </nav>
     <script>
+window.onload=function(){
             var  mytextarea = document.getElementById('content');
     if (mytextarea){
     document.querySelectorAll('.dropdown-item').forEach(function(link) {
@@ -156,6 +158,7 @@
             textarea.focus();
         });
     });
+}
 }
 
 </script>
