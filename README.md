@@ -1,7 +1,53 @@
 - violin studies
 - play studies for the violin
 -  
+Détaché simple
 
+Petit détaché avec très peu d'archet
+
+Sautillé
+
+Détaché avec plusieurs notes dans le même coup d'archet
+
+Lié
+
+Legato très lent
+
+Son filé
+
+Ressortir
+
+Spiccato tout en tirant ou tout en poussant
+
+Coup d'archet jeté
+
+Archet jeté avec plusieurs notes dans le même coup d'archet
+
+Staccato volant
+
+Staccato volant mais en laissant l'archet rebondir librement sur les cordes
+
+Staccato jeté
+
+Staccatojeté mais avec changement d'archet continu.
+
+Staccato sautillant
+
+Détaché accentué
+
+Détaché accentué en ar-rêtant l'archet entre chaque note
+
+Détaché accentué mais avec plusieurs notes dans le même coup d'archet
+
+Martelé
+
+En enlevant l'archet entre chaque note
+
+Legato accentué
+
+Legato accentué mais en arrêtant l'archet entre chaque note
+
+Staccato mordant
 Structural Components
 Chamfer – 1
 
